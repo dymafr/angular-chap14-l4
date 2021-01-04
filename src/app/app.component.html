@@ -1,5 +1,6 @@
 <div class="container d-flex flex-column flex-justify-content-center flex-align-items-center"
 	style="padding-top: 200px;">
+	<button (click)="names.push('Louisa')">Ajouter Louisa</button>
 	<input type="text" [(ngModel)]="search">
 	<ul>
 		<li *ngFor="let name of names | filter:search">{{name}}</li>
