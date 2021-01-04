@@ -7,7 +7,7 @@ import { Component, OnInit } from "@angular/core";
 })
 export class AppComponent implements OnInit {
   public search = "";
-  public names = ["Julie", "Julien", "Tintin", "Milou"];
+  public names = ["Julie", "Julien", "Tintin", "Milou", "Paul", "Pierre"];
 
   constructor() {}
 
