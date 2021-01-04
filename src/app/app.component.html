@@ -2,6 +2,6 @@
 	style="padding-top: 200px;">
 	<input type="text" [(ngModel)]="search">
 	<ul>
-		<li *ngFor="let name of names"></li>
+		<li *ngFor="let name of names | filter:search">{{name}}</li>
 	</ul>
 </div>
